@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mishu.mysimplesharedpreference.MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/TextViewShowData"
+        android:textSize="25dp"
+        android:text="Shared Preference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:hint="Write your data here"
+        android:id="@+id/EditTextWriteData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="save"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:id="@+id/ButtonSave"
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="retrive"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:id="@+id/ButtonRetrive"
+        android:text="Retrive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
