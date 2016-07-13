@@ -1,0 +1,2 @@
+# SharedPreferencesProceduralWay
+shared prederences
